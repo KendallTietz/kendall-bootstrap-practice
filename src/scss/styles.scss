@@ -9,4 +9,47 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h1, p {
+    color: white;
+  }
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+
+.display-4 {
+  font-family: 'Artifika';font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Artifika';font-size: 35px;
+}
+
+h7 {
+  font-family: 'Artifika';font-size: 20px;
+}
+
+.lead {
+  font-family: 'Artifika';font-size: 22px;
+  text-align: center;
+}
+
+h8 {
+  font-weight: bold;
+}
+
+.carousel {
+  background-size: cover;
+}
+
 // Import partials here
+@import "footer"
